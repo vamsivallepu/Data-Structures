@@ -25,7 +25,7 @@ public class SelectionSort {
 	private static int[] SelectionSort(int n, int[] arr) {
 
 		int temp;
-		for(int i=0;i<n;i++) {
+		for(int i=0;i<n-1;i++) {
 			int min=i;
 			for(int j=i+1;j<n;j++) {
 				if(arr[j]<arr[min]) {

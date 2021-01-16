@@ -1,12 +1,12 @@
-package Queue;
+package circularQueue;
 
-public class Queue {
+public class CircularQueue {
 	public int front;
 	public int rear;
 	public int size;
 	public int capacity;
 	int queue[];
-	public Queue(int cap) {
+	public CircularQueue(int cap) {
 		capacity=cap;
 		queue=new int[capacity];
 	}

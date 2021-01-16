@@ -1,9 +1,9 @@
-import Queue.*;
+package circularQueue;
 public class QueueTest {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Queue que=new Queue(5);
+		CircularQueue que=new CircularQueue(5);
 		que.enQueue(5);
 		que.enQueue(4);
 		que.enQueue(3);
